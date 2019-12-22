@@ -41,6 +41,7 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     arel (7.1.4)
+    bcrypt (3.1.13)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.3)
@@ -177,10 +178,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt
   bootsnap
   capybara
   jbuilder (~> 2.0)
   pry
+  rack (~> 2.0)
   rails (= 5.0.7.1)
   rails-controller-testing
   rspec-rails
